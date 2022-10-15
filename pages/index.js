@@ -9,6 +9,7 @@ import Hubungi from "../components/Hubungi";
 import Footer from "../components/Footer";
 import Spesification from "../components/Spesification";
 import Navbar from "../components/Navbar";
+import Head from "next/head";
 
 function Index() {
   const handleWA = () => {
@@ -18,6 +19,13 @@ function Index() {
   };
   return (
     <>
+      <Head>
+        <title>Metland Cyber City - Northbend - Perumahan Baru Tangerang</title>
+        <meta
+          name="description"
+          content="Dijual perumahan Northbend Metland cyber Tangerang. Start Rp. 2,4M an"
+        />
+      </Head>
       <React.Fragment>
         <CssBaseline />
         <Box
@@ -76,9 +84,13 @@ function Index() {
           </Box>
           <Box mt={4}>
             <Divider>
-              <Chip color="primary" label="Start Rp. 2,4 M-an" sx={{
-                fontSize: "20px"
-              }} />
+              <Chip
+                color="primary"
+                label="Start Rp. 2,4 M-an"
+                sx={{
+                  fontSize: "20px",
+                }}
+              />
             </Divider>
             <Typography
               color="#8d6815"
@@ -113,8 +125,7 @@ function Index() {
           <Spesification />
           <Fasilitas />
           <Hubungi />
-        <Navbar />
-
+          <Navbar />
         </Box>
         <Footer />
       </React.Fragment>
