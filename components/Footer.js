@@ -6,7 +6,7 @@ function Footer() {
     <Box bgcolor="#222" color="#fff" marginBottom={8} mt="20px">
     <Typography align="center" color="#ccc">
         <div>Jl. Metland Boulevard - Jakarta/Tangerang</div>
-        <div>Copyright ©2022. All rights reserved</div>
+        <div>Copyright ©2023. All rights reserved</div>
     </Typography>
 </Box>
   )
