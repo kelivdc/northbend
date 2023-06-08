@@ -50,7 +50,7 @@ function Index() {
             <Box alignContent="center" alignItems="center" m="auto">
               <Typography
                 component="h2"
-                variant="h6"
+                variant="h4"
                 fontWeight="bold"
                 fontFamily="Poppins"
               >
@@ -61,7 +61,7 @@ function Index() {
                 fontFamily="Poppins"
                 color="#15759f"
               >
-                Phase 2
+                Phase 3
               </Typography>
             </Box>
           </Stack>
@@ -74,6 +74,13 @@ function Index() {
             m="auto"
             mt="20px"
           >
+            <Image
+              src="/images/foto1.png"
+              width={400}
+              height={618}
+              layout="responsive"
+              align="center"
+            />
             <Image
               src="/images/image1.png"
               width={895}

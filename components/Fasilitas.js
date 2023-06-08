@@ -1,10 +1,23 @@
 import { Box, Divider, Paper, Typography } from "@mui/material";
+import Image from "next/image";
 import React from "react";
 
 function Fasilitas() {
   return (
     <>
+   
       <Box mt="20px" align="center">
+        <Box sx={{
+          maxWidth: "600px"
+        }}>
+          <Image
+            src="/images/peta.png"
+            width={600}
+            height={847}
+            layout="responsive"
+            align="center"        
+          />
+      </Box>
         <Divider>
           <Typography
             component="h3"
