@@ -25,6 +25,7 @@ function Index() {
           name="description"
           content="Dijual perumahan Northbend Metland cyber Tangerang. Start Rp. 2,4M an"
         />
+        <script src="/tawk.js" async />
       </Head>
       <React.Fragment>
         <CssBaseline />
